@@ -28,17 +28,13 @@ To confirm installation:
 3. Plot data with pandas
 
 ## A brief history
-* Designed by [Wes McKinney](http://wesmckinney.com/)
+* Designed by [Wes McKinney](http://wesmckinney.com/) - launched in 2008
   * https://www.blockchain.com/btc/address/1CUztXcgPYfL1AXuv8FD8XDyPXTc2jcheg
   * https://etherscan.io/address/0x5BC648c302d6aF9D921DE31d0DB2411D26686A4a
 * version 0.24.1
 
-# Let's Get to It (hopefully everyone is done installing)
-* open spyder [it looks like this](spyder.png)
-  * text editor
-  * variable explorer
-  * console
-  * control icons
+# Reading in Data
+
   
 
 
