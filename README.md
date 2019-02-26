@@ -75,7 +75,7 @@ Let's make a histogram from our sample dataset. Since we are using a data frame 
 df.hist("H",bins=100)
 </pre>
 
-![]()
+![](histo.png)
 
 
 # Ways to Practice
