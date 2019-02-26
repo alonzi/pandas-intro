@@ -44,6 +44,8 @@ The trick is pandas data frames have a lot of capability and a lot of features. 
 
 * Working definition of Data Frame: 
     <pre> An allocation of computer memory that holds data. The format works like a spreadsheet.</pre>
+* What a data fame "looks like"
+    ![visualized](andre.png)   
 
 
 # Reading in Data
@@ -63,6 +65,8 @@ The trick is pandas data frames have a lot of capability and a lot of features. 
     # Part 1: read data into data frame
     df =  pd.read_csv("andre.csv")
     </pre>
+    
+You can also make data frames other file types like excel or from objects already in memory like a dictionary.
 
 # Manipulating Data
 
