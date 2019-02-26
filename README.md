@@ -55,6 +55,7 @@ Our first step is to read data into a pandas data frame. It may be coming from m
  
   * read from csv files
     * docs: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
+      
       don't worry if this looks intimidating, we'll break it down
   * Let's write a program
     <pre>
