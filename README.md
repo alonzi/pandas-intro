@@ -38,8 +38,7 @@ Using pandas the main tool is the data frame. We use it to hold data and perform
 
 ### Often pandas data frames are confusing to new users. Almost always that is not the fault of the new user.
 
-* Here's what you will find in the official documentation
-    "Two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. Can be thought of as a dict-like container for Series objects. The primary pandas data structure." [link to docs](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
+* "Two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. Can be thought of as a dict-like container for Series objects. The primary pandas data structure." [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
   
 The trick is pandas data frames have a lot of capability and a lot of features. But when learning you don't need that. So today we'll take a different approach and focus on the basics.
 
