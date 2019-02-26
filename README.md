@@ -37,12 +37,13 @@ To confirm installation:
 * The Data Frame - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
   * from csv
     * docs: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
-      <pre>
-      # load pandas package
-      import pandas as pd      
-      # Part 1: read data into data frame
-      df =  pd.read_csv("andre.csv")
-      </pre>
+      don't worry if this looks intimidating, we'll break it down
+    <pre>
+    # load pandas package
+    import pandas as pd      
+    # Part 1: read data into data frame
+    df =  pd.read_csv("andre.csv")
+    </pre>
 
 
 
