@@ -18,7 +18,7 @@ To confirm installation:
 * open python and type <pre>import pandas as pd</pre>
 
 # Goals for Today
-1. Get pandas
+1. Get pandas working on your machine
 2. Get comfortable with pandas (know what it's all about)
 3. Learn how to look up help
 
@@ -38,6 +38,8 @@ Using pandas the main tool is the data frame. We use it to hold data and perform
 
 ### Often pandas data frames are confusing to new users. Almost always that is not the fault of the new user.
 
+### Quick survey: Who knows R?
+
 * "Two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. Can be thought of as a dict-like container for Series objects. The primary pandas data structure." [official documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
   
 The trick is pandas data frames have a lot of capability and a lot of features. But when learning you don't need that. So today we'll take a different approach and focus on the basics.
@@ -49,13 +51,9 @@ The trick is pandas data frames have a lot of capability and a lot of features. 
 
 
 # Reading in Data
-
-  * Pandas data frames have a lot of features we will focus on the most important. You can read about all the bells and wistles in the privacy of your own office.
-  
-  * Data Frame Definition:
-    * In computer jargon: an allocation of memory
-  
-  * very common: from csv files
+Our first step is to read data into a pandas data frame. It may be coming from many diferent sources (Eg: a file in storage, an object in memory, the internet, etc.). Here we will look at the example of reading in from a file (.csv).
+ 
+  * read from csv files
     * docs: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
       don't worry if this looks intimidating, we'll break it down
   * Let's write a program
@@ -66,8 +64,6 @@ The trick is pandas data frames have a lot of capability and a lot of features. 
     df =  pd.read_csv("andre.csv")
     </pre>
     
-You can also make data frames other file types like excel or from objects already in memory like a dictionary.
-
 # Manipulating Data
 
 # Making plots
