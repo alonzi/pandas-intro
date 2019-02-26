@@ -68,6 +68,15 @@ Our first step is to read data into a pandas data frame. It may be coming from m
 # Manipulating Data
 
 # Making plots
+Let's make a histogram from our sample dataset. Since we are using a data frame this feature is already built in
+
+<pre>
+# Part 3: make a histogram
+df.hist("H",bins=100)
+</pre>
+
+![]()
+
 
 # Ways to Practice
 1. Write some code
