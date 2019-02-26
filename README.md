@@ -67,6 +67,22 @@ Our first step is to read data into a pandas data frame. It may be coming from m
     
 # Manipulating Data
 
+df.head()  / df.tail() / df.sample(5)
+
+select columns: df [ [list of columns] ]  / df.columnName
+
+filter (aka keep rows that match a condition): df [ df.columnName == ??? ] .... extension look at just df.columnName == ???
+
+arrange (aka sort by column): 
+
+mutate (aka create new columns):
+
+# Aggregation / summarization
+
+
+
+
+
 # Making plots
 Let's make a histogram from our sample dataset. Since we are using a data frame this feature is already built in
 
