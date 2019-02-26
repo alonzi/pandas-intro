@@ -33,11 +33,31 @@ To confirm installation:
   * https://etherscan.io/address/0x5BC648c302d6aF9D921DE31d0DB2411D26686A4a
 * version 0.24.1
 
+## The Data Frame
+Using pandas the main tool is the data frame. We use it to hold data and perform operations on the data frame to prepare the data for our end goal. Depending on where you want to go some end functions are also built into the data frame (eg make a histogram). However ...
+
+### Often pandas data frames are confusing to new users. Almost always that is not the fault of the new user.
+
+* Here's what you will find in the official documentation
+    "Two-dimensional size-mutable, potentially heterogeneous tabular data structure with labeled axes (rows and columns). Arithmetic operations align on both row and column labels. Can be thought of as a dict-like container for Series objects. The primary pandas data structure." [link to docs](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html)
+  
+The trick is pandas data frames have a lot of capability and a lot of features. But when learning you don't need that. So today we'll take a different approach and focus on the basics.
+
+* Working definition of Data Frame: 
+    <pre> An allocation of computer memory that holds data. The format works like a spreadsheet.</pre>
+
+
 # Reading in Data
-* The Data Frame - https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
-  * from csv
+
+  * Pandas data frames have a lot of features we will focus on the most important. You can read about all the bells and wistles in the privacy of your own office.
+  
+  * Data Frame Definition:
+    * In computer jargon: an allocation of memory
+  
+  * very common: from csv files
     * docs: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html
       don't worry if this looks intimidating, we'll break it down
+  * Let's write a program
     <pre>
     # load pandas package
     import pandas as pd      
@@ -45,7 +65,9 @@ To confirm installation:
     df =  pd.read_csv("andre.csv")
     </pre>
 
+# Manipulating Data
 
+# Making plots
 
 # Ways to Practice
 1. Write some code
