@@ -25,7 +25,7 @@ To confirm installation:
 ## Outline
 1. Read data into pandas
 2. Manipulate data with pandas
-3. Plot data with pandas
+3. Plot/Aggregate/Summarize data with pandas (... and beyond)
 
 ## A brief history
 * Designed by [Wes McKinney](http://wesmckinney.com/) - launched in 2008
