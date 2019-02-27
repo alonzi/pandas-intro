@@ -137,7 +137,7 @@ mutate (aka create new columns). Let's make up batting average.
 
 * There are also a bunch of pandas functions to do some stats and things
   * df.mean()
-  *
+  * << google practice time >>
 
 * pandas also facilitates group operations. To explain let's look at a picture.
 -- show picture on your desktop from the pandas book because it is not open source.
