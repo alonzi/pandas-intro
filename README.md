@@ -86,7 +86,10 @@ Your data in a data frame is stored in memory. But as a human we like to see a s
     n = 5
     df.sample(n)
 
-filter (aka keep rows that match a condition): df [ df.columnName == ??? ] .... extension look at just df.columnName == ???
+* Notice how the whole frame doesn't display. If you want to see the column names you can do this:
+<pre>
+list(df)
+</pre>
 
 ### Sort
 In this world we call sorting the data set on a column "arranging". To write aprogram to do that we use the function 'sort_values'.
@@ -101,12 +104,30 @@ Sometimes we want to remove some of the data. We call that filtering. Let's try 
 df = df[ df.Year > 1976 ]
 </pre>
 
+Code Breakdown:
+* df is a data frame object
+* the " [ ... ] " let's us reference or "index" the data frame
+* df.Year > 1976 is a boolean that is evaluated for every row
 
 
-#### Create or Remove Columns
-select columns: df [ [list of columns] ]  / df.columnName
-mutate (aka create new columns):
 
+### Create or Remove Columns
+* Once you have worked the data set you sometimes want to select a subset of the columns going forward. Again we use the reference tool and provide a list of columns to keep.
+
+    <pre>
+    df = df[ ['H','G'] ]
+    </pre>
+
+
+* To create columns we can even get a little fancier and stick calculations right into those new columns.
+mutate (aka create new columns). Let's make up batting average.
+
+    <pre>
+    df['myBA']=df.H/df.AB
+    df[['myBA','BA']]
+    </pre>
+
+  To create the new column we just acted like it existed and pandas created it for us on the fly.
 
 
 # Aggregation / summarization
