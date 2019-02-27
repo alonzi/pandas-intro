@@ -77,13 +77,13 @@ Your data in a data frame is stored in memory. But as a human we like to see a s
 
     # load pandas package
     df.head()
+    
     # look at end of file
     df.tail()
+    
     # look at random sample
     n = 5
     df.sample(n)
-
-
 
 
 df.head()  / df.tail() / df.sample(5)
