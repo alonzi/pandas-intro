@@ -73,7 +73,7 @@ Our first step is to read data into a pandas data frame. It may be coming from m
     
 # Manipulating Data
 
-#### Taking a look at the data
+### Taking a look at the data
 Your data in a data frame is stored in memory. But as a human we like to see a snippet on the screen. Let's write a program to do just that.
 
     # load pandas package
@@ -88,12 +88,20 @@ Your data in a data frame is stored in memory. But as a human we like to see a s
 
 filter (aka keep rows that match a condition): df [ df.columnName == ??? ] .... extension look at just df.columnName == ???
 
-#### Sort
+### Sort
 In this world we call sorting the data set on a column "arranging". To write aprogram to do that we use the function 'sort_values'.
   * [documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html)
 
   <pre>df.sort_values(by='G', ascending=False)</pre>
     
+### Remove rows (with condition)
+Sometimes we want to remove some of the data. We call that filtering. Let's try writing code to remove the years before 1976 from this data frame.
+
+<pre>
+df = df[ df.Year > 1976 ]
+</pre>
+
+
 
 #### Create or Remove Columns
 select columns: df [ [list of columns] ]  / df.columnName
