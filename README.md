@@ -64,8 +64,10 @@ Our first step is to read data into a pandas data frame. It may be coming from m
   * Let's write a program
     <pre>
     # load pandas package
-    import pandas as pd      
-    # Part 1: read data into data frame
+    import pandas as pd
+    </pre>
+    <pre>
+    # read data into data frame
     df =  pd.read_csv("andre.csv")
     </pre>
     
