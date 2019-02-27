@@ -71,6 +71,20 @@ Our first step is to read data into a pandas data frame. It may be coming from m
     
 # Manipulating Data
 
+Your data in a data frame is stored in memory. But as a human we like to see a snippet on the screen. Let's write a program to do just that.
+
+    <pre>
+    # load pandas package
+    df.head()
+    # look at end of file
+    df.tail()
+    # look at random sample
+    n = 5
+    df.sample(n)
+    </pre>
+
+
+
 df.head()  / df.tail() / df.sample(5)
 
 select columns: df [ [list of columns] ]  / df.columnName
