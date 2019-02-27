@@ -17,6 +17,10 @@ Mothership: https://pandas.pydata.org/
 To confirm installation:
 * open python and type <pre>import pandas as pd</pre>
 
+## Other Resources
+* Python for Data Analysis by McKinney
+* R for Data Science by Wickham & Grolemund - [free online](https://r4ds.had.co.nz/)
+
 # Goals for Today
 1. Get pandas working on your machine
 2. Get comfortable with pandas (know what it's all about)
