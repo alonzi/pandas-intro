@@ -135,7 +135,15 @@ mutate (aka create new columns). Let's make up batting average.
 * To quickly summarize the common statistics of the dataset use describe
   <pre> df.describe() </pre>
 
+* There are also a bunch of pandas functions to do some stats and things
+  * df.mean()
+  *
 
+* pandas also facilitates group operations. To explain let's look at a picture.
+-- show picture on your desktop from the pandas book because it is not open source.
+  * let's group Andre's data frame by Team he played for then take the mean
+ <pre>dfg = df.groupby(df.Tm)</pre>
+ <pre>dfg.mean()['H']</pre>
 
 
 # Making plots
@@ -153,12 +161,6 @@ df.hist("H",bins=100)
 1. Write some code
 2. Ask a friend to review it
 
-* Beginning
-  * Flip a coin (~10 lines)
-  * Play rock, paper, scissors  (~25 lines)
-* Intermediate
-  * Guess a secret number between 1 and 10. With hints. (~20 lines)
-  * Dice rolling program
-* Expert
-  * Play blackjack
-  * Play roulette
+* Beginning: Load a csv file into a data frame. Clean it up for statistical analysis.
+* Intermediate: Load an excel spreadsheet into a data frame.
+* Expert: Go nuts. Read the McKinney book and try out some cool stuff.
