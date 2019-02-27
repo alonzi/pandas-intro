@@ -132,6 +132,8 @@ mutate (aka create new columns). Let's make up batting average.
 
 # Aggregation / summarization
 
+* To quickly summarize the common statistics of the dataset use describe
+  <pre> df.describe() </pre>
 
 
 
