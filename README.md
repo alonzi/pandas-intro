@@ -73,7 +73,6 @@ Our first step is to read data into a pandas data frame. It may be coming from m
 
 Your data in a data frame is stored in memory. But as a human we like to see a snippet on the screen. Let's write a program to do just that.
 
-    <pre>
     # load pandas package
     df.head()
     # look at end of file
@@ -81,7 +80,7 @@ Your data in a data frame is stored in memory. But as a human we like to see a s
     # look at random sample
     n = 5
     df.sample(n)
-    </pre>
+
 
 
 
