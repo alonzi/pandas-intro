@@ -18,7 +18,7 @@ To confirm installation:
 * open python and type <pre>import pandas as pd</pre>
 
 ## Other Resources
-* Python for Data Analysis by McKinney
+* Python for Data Analysis by McKinney - [get from library](https://search.lib.virginia.edu/catalog/u7444998)
 * R for Data Science by Wickham & Grolemund - [free online](https://r4ds.had.co.nz/)
 
 # Goals for Today
